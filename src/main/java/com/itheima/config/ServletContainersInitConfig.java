@@ -15,6 +15,7 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
         return ctx;
     }
 
+
     //设置由springmvc控制器处理的请求映射路径
     protected String[] getServletMappings() {
         return new String[]{"/"};
